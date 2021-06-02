@@ -17,7 +17,7 @@ ul{
   padding: 0;
 }
 
-.button_1{
+.botao_1{
   height: 38px;
   background: #e8491d;
   border: none;
@@ -33,6 +33,7 @@ ul{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 /* Header*/
 header{
   background: #35424a;
@@ -78,7 +79,7 @@ header a:hover{
   font-weight: bold;
 }
 
-/* Showcase Trocar Imagem q ficou ruim*/
+/* Showcase*/
 #showcase{
   min-height: 400px;
   background: url("../images/background.jpg") ;
@@ -96,19 +97,19 @@ header a:hover{
   font-size: 20px;
 }
 
-/* Boxes */
-#boxes{
+/* Caixas */
+#caixas{
   margin-top: 20px;
 }
 
-#boxes .box{
+#caixas .caixa{
   float: left;
   text-align: center;
   width: 30%;
   padding: 10px;
 }
 
-#boxes .box img{
+#caixas .caixa img{
   width: 90px;
 }
 
@@ -119,7 +120,7 @@ aside#sidebar{
   margin-top: 10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
+aside#sidebar .duvida input, aside#sidebar .duvida textarea{
   width: 90%;
   padding: 5px;
 }
@@ -152,9 +153,7 @@ footer{
     header #branding,
     header nav,
     header nav li,
-    #newsletter h1,
-    #newsletter form,
-    #boxes .box
+    #caixas .caixa
     article#main-col,
     aside#sidebar{
       float: none;
@@ -168,15 +167,5 @@ footer{
 
     #showcase h1{
       margin-top: 40px;
-    }
-
-    #newsletter button, .quote button{
-      display: block;
-      width: 100%;
-    }
-
-    #newsletter form input[type="email"], .quote input, .quote textarea{
-      width: 100%;
-      margin-bottom: 5px;
     }
 }
