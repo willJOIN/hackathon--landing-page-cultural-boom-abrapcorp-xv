@@ -6,6 +6,11 @@ body{
 }
 
 /* Global */
+
+.aligncenter {
+    text-align: center;
+}
+
 .container{
   width: 80%;
   margin: auto;
